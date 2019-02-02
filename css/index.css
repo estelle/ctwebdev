@@ -192,7 +192,10 @@ body,
 }
 
 .content {
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+.content ul {
+  padding-left: 1em;
 }
 
 .content input, button {
@@ -426,6 +429,11 @@ ol {
 }
 .slide.invert p, .slide.invert li, .slide.invert h1 {
   color: black;
+}
+
+.invertfoo span {
+  color: black;
+  background-color: #fff6;
 }
 
 .contrast_text {

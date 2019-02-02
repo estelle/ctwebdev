@@ -35,7 +35,10 @@ body,
   font-size: 1.75rem;
 }
 .content {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  ul {
+    padding-left: 1em;
+  }
 }
 .content input, button {
   font-size: 2rem;
