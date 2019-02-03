@@ -499,6 +499,43 @@ ol {
   font-size: 0.8rem;
 }
 
+.TWEET {
+  background-color: #5a115a;
+}
+.TWEET blockquote {
+  background-color: white;
+  width: 80vw;
+  margin: auto;
+  border-radius: 10px;
+  padding: 0.25em 0.5em;
+  color: #333;
+  font-family: "helvetica Neue", helvetica, arial;
+  display: flex;
+  align-items: flex-start;
+  font-size: 1.2rem;
+}
+.TWEET blockquote > a > img {
+  border-radius: 50%;
+  float: left;
+  height: 2em;
+}
+.TWEET blockquote div > a span:first-of-type {
+  font-size: 0.8rem;
+  color: #14171a;
+  font-weight: 700;
+}
+.TWEET blockquote div > a span:last-of-type {
+  font-size: 0.6rem;
+  color: black;
+}
+.TWEET blockquote div > p {
+  font-size: 1.2rem;
+}
+.TWEET blockquote div .date {
+  color: #657786;
+  font-size: 0.6rem;
+}
+
 .tweet blockquote {
   font-size: calc((6vh + 6vw) / 2);
 }

@@ -1,4 +1,42 @@
-
+.TWEET  {
+	background-color:  hsl(300, 68%, 21%);
+	blockquote {
+		background-color: white; 
+		width: 80vw;
+		margin: auto; 
+		border-radius: 10px;
+		padding: 0.25em 0.5em; 
+		color: #333;
+		font-family: 'helvetica Neue', helvetica, arial;
+		display: flex; align-items: 
+		flex-start;
+		font-size: 1.2rem;
+		> a > img {
+			border-radius: 50%;
+			float: left; height: 2em;
+		}
+		div {
+			> a {
+				span:first-of-type {
+					font-size: .8rem;
+					color: rgb(20, 23, 26); 
+					font-weight: 700;
+				}
+				span:last-of-type {
+					font-size: 0.6rem;
+					color: black;
+				}
+			}
+			> p {
+				font-size: 1.2rem;
+			}
+			.date {
+				color: rgb(101, 119, 134); 
+				font-size: 0.6rem;
+			}
+		}
+	}
+}
 .tweet blockquote {
 	font-size: calc((6vh + 6vw) / 2);
 }
