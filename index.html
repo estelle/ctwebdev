@@ -1590,24 +1590,170 @@ Initially download only what a page needs: include only functions used by page</
 </div>
 
 
-<div class="slide">
-  <header><h1>Accessibility</h1></header>
-  <section class="content">
-    <ul>
-      <li>Think about accessibility for EVERY decision</li>
-      <li>Turn off the sound and unplug your mouse</li>
-      <li>Use semantic HTML (links for links, with href!)</li>
-      <li>Declare the language</li>
-      <li>Don't break accessibilty with CSS</li>
-  </section>
-</div>
-
-<div class="slide intro" style="background-color: hsl(220, 68%, 21%);">
+<div class="slide bigbg intro" style="background-image: url(bg/access.jpg)">
 <h1>HTML is by default accessible.<br/> Our jobs as developers is to <br/>not f**k that up.</h1>
 </div>
 
 
+<div class="slide bigbg" style="background-image: url(bg/access.jpg)">
+  <header><h1>Accessibility</h1></header>
+  <section class="content">
+    <ul class="entireul">
+      <li>Use semantic HTML (links for links, with href!)</li>
+      <li>Declare the language</li>
+      <li>Don't break accessibilty (with CSS)</li>
+      <li>Think about accessibility with EVERY decision</li>
+      <li>Turn off the sound and unplug your mouse</li>
+  </section>
+</div>
 
+
+
+
+<div class="slide intro" style="background-color: hsl(220, 68%, 21%);">
+<h1>Hire a front end engineer to architect the front end</h1>
+</div>
+
+
+
+
+<div class="slide intro"  style="background-color: hsl(10, 90%, 39%);">
+  <h2 style="font-size: 6.5vw;"></h2>
+  <h1 style="font-size: 8vw">display: grid;</h1>
+</div>
+
+
+
+<div class="slide object invert">
+  <object type="" data="https://codepen.io/estelle/full/RJpreX/">
+  </object>
+  <a href="https://codepen.io/estelle/full/RJpreX/" class="objectlink">Frozen Header Table</a>
+</div>
+
+
+<div class="slide"  style="background-color: hsl(350, 90%, 39%);">
+  <header>
+    <h1>ARIA as a backup</h1>
+  </header>
+  <section class="content">
+<pre style="height: calc(100vh - 200px); font-size: 1rem; overflow: scroll;">&lt;table role="table" aria-label="Semantic Elements" aria-describedby="semantic_elements_table_desc" aria-rowcount="81"&gt; &nbsp; 
+  &lt;caption id="semantic_elements_table_desc"&gt;Semantic Elements to use instead of ARIA's roles&lt;/caption&gt;   
+  &lt;thead role="rowgroup"&gt;      
+     &lt;tr role="row"&gt;        
+       &lt;th role="columnheader" aria-sort="none"&gt;ARIA Role&lt;/th&gt;
+       &lt;th role="columnheader" aria-sort="none"&gt;Semantic Element&lt;/th&gt;      
+     &lt;/tr&gt;    
+  &lt;/thead&gt;
+  &lt;tbody role="rowgroup"&gt;     
+     &lt;tr role="row" aria-rowindex="11"&gt;        
+       &lt;td role="cell"&gt;header&lt;/td&gt;
+       &lt;td role="cell"&gt;h1&lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr role="row" aria-rowindex="16"&gt;
+       &lt;td role="cell"&gt;header&lt;/td&gt;
+       &lt;td role="cell"&gt;h6&lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr role="row" aria-rowindex="18"&gt;
+       &lt;td role="cell"&gt;rowgroup&lt;/td&gt;
+       &lt;td role="cell"&gt;thead&lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr role="row" aria-rowindex="24"&gt;
+       &lt;td role="cell"&gt;term&lt;/td&gt;
+       &lt;td role="cell"&gt;dt&lt;/td&gt;
+     &lt;/tr&gt;
+   &lt;/tbody&gt;
+ &lt;/table&gt;</pre> </section>
+</div>
+
+
+<div class="slide intro"  style="background-color: hsl(320, 90%, 39%);">
+  <h2 style="font-size: 6.5vw;">User Experience</h2>
+  <h1 style="font-size: 8vw">Accessibility</h1>
+  <p>Do it right the first time</p>
+  <!-- If all engineers are responsible for thinking about these tenets, you save time and money by not refactoring and not having a separate teams for each.-->
+</div>
+
+
+<div class="slide">
+  <header>
+    <h1>Best Practices</h1>
+  </header>
+  <section class="content">
+    <ul>
+      <li>Think about accessibility for EVERY decision</li>
+      <li>Turn off the sound and unplug your mouse</li>
+      <li>Test changes (as part of build process?)</li>
+      <li>Use semantic HTML (links for links, with href!)</li>
+      <li>Declare the language</li>
+      <li>Don't f**k is up with CSS</li>
+
+
+  </section>
+</div>
+
+
+
+<!-- army -->
+<div class="slide bigbg" style="background-image: url(bg/army.jpg)">
+  <header><h1>Security</h1></header>
+
+</div>
+
+
+<!-- hacker -->
+<div class="slide bigbg" style="background-image: url(bg/hacker.jpg)">
+  <header><h1>Security</h1></header>
+</div>
+
+<!-- hacker -->
+<div class="slide bigbg" style="background-image: url(bg/lock.jpg)">
+  <header><h1>Security</h1></header>
+<ul class="entireul">
+    <li class="temphidden">HTTPS</li>
+    <li class="temphidden">linkes with //</li>
+    <li class="temphidden">Client &amp; server side form validation</li>
+    <li class="temphidden">Authentication &amp; Authorization</li>
+    <li class="temphidden">Cookie &amp; Session Management</li>
+    <li class="temphidden">Same origin policy</li>
+    <li class="temphidden">XSS, CORS, SQL injection</li>
+    <li class="temphidden">User generated content</li>
+    <li class="temphidden">3rd Party Scripts</li>
+  </ul>
+</div>
+
+
+<!-- hacker -->
+<div class="slide bigbg" style="background-image: url(bg/lock.jpg)">
+  <header><h1>Privacy</h1></header>
+<ul class="entireul">
+    <li class="temphidden">3rd Party Scripts
+      <ul>
+        <li class="temphidden">Ads</li>
+        <li class="temphidden">Google</li>
+        <li class="temphidden">Facebook</li>
+      </ul>
+    </li>
+    <li class="temphidden">Cookies</li>
+    <li class="temphidden">Geolocation API</li>
+    <li class="temphidden">Content Security Policy</li>
+    <li class="temphidden">Fingerprinting</li>
+  </ul>
+</div>
+
+
+<!-- doctor -->
+<div class="slide bigbg" style="background-image: url(bg/ruraldoc.jpg)">
+  <header><h1>User Experience Design</h1></header>
+
+</div>
+
+<!-- doctor -->
+<div class="slide bigbg" style="background-image: url(bg/er.jpg)">
+  <header><h1>User Experience Design</h1></header>
+  <section class="content temphidden">
+&ldquo;A user interface is like a joke. If you have to explain it, it’s not that good.&rdquo;
+  </section>
+</div>
 
 
 
@@ -1618,12 +1764,12 @@ Initially download only what a page needs: include only functions used by page</
     <header><h1>Always think about...</h1></header>
 <section class="content">
   <ul class="bulleted">
-    <li class="temphidden">User experience</li>
     <li class="temphidden">Accessibility</li>
     <li class="temphidden">Performance</li>
+    <li class="temphidden">Internationalization</li>
     <li class="temphidden">Security</li>
     <li class="temphidden">Privacy</li>
-    <li class="temphidden">Internationalization</li>
+    <li class="temphidden">User experience</li>
   </ul>
 </section>
 </div>
@@ -1634,21 +1780,12 @@ Initially download only what a page needs: include only functions used by page</
 
 
 <div class="slide intro"  style="background-color: hsl(320, 90%, 39%);">
-  <h2 style="font-size: 6.5vw;">"Fast to Code"</h2>
-  <h1 style="font-size: 8vw">Engineering Performance</h1>
+  <h1 style="font-size: 5vw">Engineering Performance</h1>
+  <h2 style="font-size: 4vw;">"Fast to Code"</h2>
+  <h1 style="font-size: 5vw">Get it right the first time.</h1>
 </div>
 
 
-<div class="slide intro"  style="background:  hsl(360, 68%, 21%);">
-    <header>
-      <h1  style="font-size: 8vw;">Developer Experience</h1>
-      <h2  style="font-size: 6.5vw;" class="temphidden"> Productivity</h2>
-    </header>
-     <section class="content" style="display: flex; justify-content: center; align-items: center; align-content: center; height: 60vh; transform: scale(1.5)"> 
-    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">So I&#39;m reading this <a href="https://twitter.com/TheAtlantic?ref_src=twsrc%5Etfw">@TheAtlantic</a> article and noticing the Chrome status bar is rapidly flickering lots of URLs. I opened the inspector network panel and see there&#39;s now over 9000 requests issued and 32MB used. I&#39;m not interacting with this page at all, just reading the text. <a href="https://t.co/91Pk0qX8uG">pic.twitter.com/91Pk0qX8uG</a></p>&mdash; Elliott Sprehn (@ElliottZ) <a href="https://twitter.com/ElliottZ/status/1047306006894497792?ref_src=twsrc%5Etfw">October 3, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-</section></div>
 
 
 
@@ -1658,13 +1795,8 @@ Initially download only what a page needs: include only functions used by page</
     <h1>Biggest Bottlenecks?</h1>
   </header>
   <section class="content">
-    <img style="float: right; image-rendering: pixelated; width: 40vw" src="images/architecture.jpeg" alt="architect looking at plans">
-    <p>Who?</p>
-
-    <ul>
-      <li class="temphidden">Developers (Ourselves)</li>
-    </ul>
-    <p  class="temphidden">What?</p>
+     <p>We are!</p>
+    <p  class="temphidden">Overcoming bottlenecks?</p>
     <ul>
     <li class="temphidden">Architecture</li>
     <li class="temphidden">Consistency</li>
@@ -1698,20 +1830,12 @@ Initially download only what a page needs: include only functions used by page</
 
 
 
-<div class="slide object invert">
-  <object type="" data="https://codepen.io/estelle/full/LVQLRq/">
-  </object>
-  <a href="https://github.com/estelle/input-masking" class="objectlink">Input Masking repo</a>
-</div>
 
-
-
-
-
+<!-- full stack job description 
 <div class="slide" style="background: center / contain no-repeat url(images/fullstack.png) white;">
   <section class="content">
   </section>
-</div>
+</div>-->
 
 
 
@@ -1727,97 +1851,62 @@ Initially download only what a page needs: include only functions used by page</
 
 
 
-<div class="slide intro"  style="background-color: hsl(10, 90%, 39%);">
-  <h2 style="font-size: 6.5vw;"></h2>
-  <h1 style="font-size: 8vw">display: grid;</h1>
-</div>
-
-
-
-<div class="slide object invert">
-  <object type="" data="https://codepen.io/estelle/full/RJpreX/">
-  </object>
-  <a href="https://codepen.io/estelle/full/RJpreX/" class="objectlink">Frozen Header Table</a>
-</div>
-
-
-<div class="slide"  style="background-color: hsl(350, 90%, 39%);">
-  <header>
-    <h1>ARIA as a backup</h1>
-  </header>
-  <section class="content">
-<pre style="height: calc(100vh - 200px); overflow: scroll;">&lt;table role="table" aria-label="Semantic Elements" aria-describedby="semantic_elements_table_desc" aria-rowcount="81"&gt; &nbsp; 
-  &lt;caption id="semantic_elements_table_desc"&gt;Semantic Elements to use instead of ARIA's roles&lt;/caption&gt;   
-  &lt;thead role="rowgroup"&gt;      
-     &lt;tr role="row"&gt;        
-       &lt;th role="columnheader" aria-sort="none"&gt;ARIA Role&lt;/th&gt;
-       &lt;th role="columnheader" aria-sort="none"&gt;Semantic Element&lt;/th&gt;      
-     &lt;/tr&gt;    
-  &lt;/thead&gt;
-  &lt;tbody role="rowgroup"&gt;     
-     &lt;tr role="row" aria-rowindex="11"&gt;        
-       &lt;td role="cell"&gt;header&lt;/td&gt;
-       &lt;td role="cell"&gt;h1&lt;/td&gt;
-     &lt;/tr&gt;
-     &lt;tr role="row" aria-rowindex="16"&gt;
-       &lt;td role="cell"&gt;header&lt;/td&gt;
-       &lt;td role="cell"&gt;h6&lt;/td&gt;
-     &lt;/tr&gt;
-     &lt;tr role="row" aria-rowindex="18"&gt;
-       &lt;td role="cell"&gt;rowgroup&lt;/td&gt;
-       &lt;td role="cell"&gt;thead&lt;/td&gt;
-     &lt;/tr&gt;
-     &lt;tr role="row" aria-rowindex="24"&gt;
-       &lt;td role="cell"&gt;term&lt;/td&gt;
-       &lt;td role="cell"&gt;dt&lt;/td&gt;
-     &lt;/tr&gt;
-   &lt;/tbody&gt;
- &lt;/table&gt;</pre> </section>
-</div>
-
-
-<div class="slide intro"  style="background-color: hsl(320, 90%, 39%);">
-  <h2 style="font-size: 6.5vw;">User Experience</h2>
-  <h1 style="font-size: 8vw">Accessibility</h1>
-</div>
 
 
 <div class="slide">
-  <header>
-    <h1>Best Practices</h1>
-  </header>
-  <section class="content">
-    <ul>
-      <li>Think about accessibility for EVERY decision</li>
-      <li>Turn off the sound and unplug your mouse</li>
-      <li>Test changes (as part of build process?)</li>
-      <li>Use semantic HTML (links for links, with href!)</li>
-      <li>Declare the language</li>
-      <li>Don't f**k is up with CSS</li>
-
-<p>If all engineers are responsible for thinking about these tenets, you save time and money by not refactoring and not having a separate teams for each.
-  </section>
-</div>
-
-
-
-
-
-
-
-
-
-<div class="slide">
-  <header><h1 class="slash">Performance Budget!</h1></header>
+  <header><h1 class="slash">Performance?</h1></header>
     <section class="content">
       <p>Plan ahead</p>
+      <p>Always keep it in mind</p>
+      <p>Diversity</p>
     </section>
 </div>
 
 
 <div class="slide">
+  <header><h1 class="slash">Accessibility?</h1></header>
     <section class="content">
-    <blockquote>Good design is not about making something pretty. It is about making something usable and intuitive – the beauty of the product will be a result of these things.</blockquote> <p>-- <a href="http://lukejones.me/archives/good-design-aint-pretty">Luke Jones</a></p>
+      <p>Plan ahead</p>
+      <p>Always keep it in mind</p>
+      <p>Diversity</p>
+    </section>
+</div>
+
+<div class="slide">
+  <header><h1 class="slash">Internationalization?</h1></header>
+    <section class="content">
+      <p>Plan ahead</p>
+      <p>Always keep it in mind</p>
+      <p>Diversity</p>
+    </section>
+</div>
+
+<div class="slide">
+  <header><h1 class="slash">Security?</h1></header>
+    <section class="content">
+      <p>Plan ahead</p>
+      <p>Always keep it in mind</p>
+      <p>Diversity</p>
+    </section>
+</div>
+
+
+<div class="slide">
+  <header><h1 class="slash">Privacy?</h1></header>
+    <section class="content">
+      <p>Plan ahead</p>
+      <p>Always keep it in mind</p>
+      <p>Diversity</p>
+    </section>
+</div>
+
+
+<div class="slide">
+  <header><h1 class="slash">User Experience?</h1></header>
+    <section class="content">
+    <p>Good design: Usable and intuitive </p> 
+    <p>Always keep it in mind</p>
+    <p>Diversity</p>
     </section>
 </div>
 
