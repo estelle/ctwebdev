@@ -52,8 +52,7 @@ pre {
 cite {text-align: right; display: block; margin-top: 1rem;}
 cite:before {content: '-';}
 a {
-    color: inherit;
-    opacity: 0.5;
+    color: #ccc;
 }
 .visibility {
   margin-top: 0;
@@ -86,6 +85,7 @@ ol {
   .entireul, 
   li {
       background-color: rgba(0, 0, 0, 0.4);
+      padding-right: 0.2em;
   }
   .entireul li {
     background-color: transparent;
@@ -104,4 +104,7 @@ ol {
 }
 .contrast_text {
   color: magenta;
+}
+.solid.solid.solid {
+  background: black;
 }

@@ -10,13 +10,49 @@ Based on: http://estelle.github.com/ctwebdev
 -->
 
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
-<link rel="stylesheet" href="css/index.css">
 <meta name="twitter:widgets:link-color" content="#4682B4">
 <meta name="twitter:widgets:theme" content="light">
 <meta name="viewport" content="width=device-width,user-scalable=yes">
 <base target="_play">
+
 <style>
+body {
+  background-color: #222;
+  color: #eee;
+  font-family: arial;
+}
+.slide {
+  background-size: 1px 1px;
+}
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(css/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(css/MaterialIcons-Regular.woff2) format('woff2'),
+       url(css/MaterialIcons-Regular.woff) format('woff'),
+       url(css/MaterialIcons-Regular.ttf) format('truetype');
+}
+     [class|='material-icons'] {
+      margin-top: 1rem;
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2rem !important;
+  letter-spacing: normal;
+  text-transform: none;
+  width: 90vw;
+  display: block;
+  word-wrap: normal;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
 </style>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<link rel="stylesheet" href="css/index.css" class="removeForAT">
 </head>
 
 <body>
@@ -24,7 +60,7 @@ Based on: http://estelle.github.com/ctwebdev
    <div class="slides">
 
 
-<div class="slide intro" style="background: black;">
+<div class="slide intro solid">
     <header>
     <h1>User Experience<br/> versus<br/> Developer Experience </h1>
   </header>
@@ -33,6 +69,42 @@ Based on: http://estelle.github.com/ctwebdev
     </section>
 </div>
 
+
+
+
+<div class="slide large solid">
+    <header><h1>Client Experience</h1></header>
+    <section class="TWEET">
+      <blockquote class="twitter-tweet" data-lang="en"><a><img src="images/estelle.jpg"></a>
+        <div>
+          <a href=""><span>Estelle Weyl</span> <span>@estellevw</span></a>
+          <p>
+          Companies, even tiny start ups, need to hire front end engineers from the get go. If you start with a non-FEE doing the front end, you create a tech stack and a tech debt that costs more to fix that it would to create. <a href="https://twitter.com/estellevw/status/1086345445998190592?ref_src=twsrc%5Etfw" class="date">January 18, 2019</a> </p></div></blockquote>
+      </blockquote>
+    </section>
+  </div>
+
+
+
+
+<div class="slide large solid">
+    <header><h1>Client Experience</h1></header>
+    <section class="TWEET">
+      <blockquote class="twitter-tweet" data-lang="en"><a><img src="images/estelle.jpg"></a>
+        <div>
+          <a href=""><span>Estelle Weyl</span> <span>@estellevw</span></a>
+          <p>
+          If you don’t consider best practices, including performance, accessibility, internationalization, privacy, security & UX from day 1, you have debt you’ll end up always band-aiding: companies who think they can’t afford a FEE think they definitely can’t afford a complete refactor. <br/><a href="https://twitter.com/estellevw/status/1086345445998190592?ref_src=twsrc%5Etfw" class="date">January 18, 2019</a> </p></div></blockquote>
+      </blockquote>
+    </section>
+  </div>
+
+
+<div class="slide bigbg" style="background-image: url(https://fortunedotcom.files.wordpress.com/2014/09/pay26_b1.jpg), url(bg/paypal.jpg);">
+  <header><h1>Who are your users?</h1></header>
+<div class="photocredit">PayPal Mafia by <span title="must have been published or publicly displayed outside Wikipedia">Robyn Twomey</span> (<a href="//en.wikipedia.org/wiki/Wikipedia:Non-free_content_criteria#4" title="Wikipedia:Non-free content criteria">WP:NFCC#4</a>), <a href="//en.wikipedia.org/wiki/File:PayPal_Mafia.jpg" title="Fair use of copyrighted material in the context of PayPal Mafia">Fair use</a>, <a href="https://en.wikipedia.org/w/index.php?curid=49313890">for</a> <a href="http://fortune.com/2007/11/13/paypal-mafia/">Fortune</a></div>
+<p class="alt">The "paypal mafia" photographed at Tosca in San Francisco, Oct, 2007. Back row from left: Jawed Karim, co-founder Youtube; Jeremy Stoppelman CEO Yelp; Andrew McCormack, managing partner Laiola Restaurant; Premal Shah, Pres of Kiva; 2nd row from left: Luke Nosek, managing partner The Founders Fund; Kenny Howery, managing partner The Founders Fund; David Sacks, CEO Geni and Room 9 Entertainment; Peter Thiel, CEO Clarium Capital and Founders Fund; Keith Rabois, VP BIz Dev at Slide and original Youtube Investor; Reid Hoffman, Founder Linkedin; Max Levchin, CEO Slide; Roelof Botha, partner Sequoia Capital; Russel Simmons, CTO and co-founder of Yelp</p>
+</div>
 
 
 <!-- ROADSTER -->
@@ -80,13 +152,6 @@ The Model 3 was the top-selling plug-in electric car in the U.S. in 2018 with an
 </div>
 
 
-<!-- indian women -->
-<div class="slide bigbg" style="background-image: url(bg/indiawomen2.jpg)">
-  <header><h1>Who are your users?</h1></header>
-  <!-- the saathi program is helping empower women in rural india.
- -->
- <p class="alt">Three lower income Indian women in saris partaking in the saathi program, learning how to use mobile phones as computers</p>
-</div>
 
 <!-- indian girls -->
 <div class="slide bigbg" style="background-image: url(bg/indiawomen.jpg)">
@@ -94,6 +159,15 @@ The Model 3 was the top-selling plug-in electric car in the U.S. in 2018 with an
   <!-- 
  -->
 <p class="alt">Three upper income teen girls enjoying themselves and their mobile devices</p> 
+</div>
+
+
+<!-- indian women -->
+<div class="slide bigbg" style="background-image: url(bg/indiawomen2.jpg)">
+  <header><h1>Who are your users?</h1></header>
+  <!-- the saathi program is helping empower women in rural india.
+ -->
+ <p class="alt">Three lower income Indian women in saris partaking in the saathi program, learning how to use mobile phones as computers</p>
 </div>
 
 <!-- africa -->
@@ -335,7 +409,8 @@ Storage 16 GB -->
 
 
 
-<div class="slide bigbg" style="background-image: url(bg/webpants.jpg); background-size: 100% auto">
+<div class="slide bigbg" style="background: url(bg/webpants.jpg); background-size: 100% auto;
+background-position: bottom;">
     <header><h1>The Web</h1></header>
  <section class="content">
   <ul class="bulleted">
@@ -386,7 +461,8 @@ Storage 16 GB -->
 
 <div class="slide intro" style="background-color: hsl(290, 90%, 39%);">
   <header>
-    <h1 style="font-size: 8vw">OH: &lt;div> soup has no nutritional value.</h1>
+    <h1>&ldquo;&lt;div> soup has <br/>no nutritional value.&rdquo;</h1>
+    <p style="text-align: center;">-- @shshaw</span></h1>
   </header>
 </div>
 
@@ -455,7 +531,7 @@ Storage 16 GB -->
 
 
 
-<div class="slide intro large" style="background: black;">
+<div class="slide  large solid">
     <header><h1>Coding v. Engineering</h1></header>
     <section class="TWEET">
       <blockquote>
@@ -489,21 +565,6 @@ Storage 16 GB -->
 
 
 
-<div class="slide">
-  <header><h1>Engineer -  en-jə-ˈnir - verb</h1></header>
-  <section>
-    <p>To plan out with skill and craft. Direct in a course or show the way to be followed</p>
-    <p>Synonyms: guide, lead, steer, pilot, engineer</p>
-    <ul>
-      <li><strong>guide</strong>: knowledge of the way and of all its difficulties.</li> 
-      <li><strong>lead</strong>: show the way, keep followers under control.</li> 
-      <li><strong>steer</strong>: keep to a course and maneuver correctly</li>
-      <li><strong>pilot</strong>: guide over a dangerous or complicated course </li>
-      <li><strong>engineer</strong>: avoid or overcome difficulties in achieving a goal.
-      </li>
-    </ul>
-  </section>
-</div>
 
 
 
@@ -524,6 +585,37 @@ Storage 16 GB -->
 </section>
 </div>
 
+
+<div class="slide intro large" style="background-color: hsl(310, 68%, 21%);">
+    <header><h1>Front End <span>Engineering</span></h1></header>
+<section class="content">
+  <ul class="bulleted">
+    <li>User experience</li>
+    <li>Performance</li>
+    <li>Internationalization</li>
+    <li>Accessibility</li>
+    <li>Security</li>
+    <li>Privacy</li>
+  </ul>
+</section>
+</div>
+
+
+<div class="slide">
+  <header><h1>Engineer -  en-jə-ˈnir - verb</h1></header>
+  <section>
+    <p>To plan out with skill and craft. Direct in a course or show the way to be followed</p>
+    <p>Synonyms: guide, lead, steer, pilot, engineer</p>
+    <ul>
+      <li><strong>guide</strong>: knowledge of the way and of all its difficulties.</li> 
+      <li><strong>lead</strong>: show the way, keep followers under control.</li> 
+      <li><strong>steer</strong>: keep to a course and maneuver correctly</li>
+      <li><strong>pilot</strong>: guide over a dangerous or complicated course </li>
+      <li><strong>engineer</strong>: avoid or overcome difficulties in achieving a goal.
+      </li>
+    </ul>
+  </section>
+</div>
 
 <div class="slide intro large" style="background-color: hsl(310, 68%, 21%);">
     <header><h1>Front End <span>Engineering</span></h1></header>
@@ -883,8 +975,23 @@ Initially download only what a page needs: include only functions used by page</
 
 
 
+<div class="slide" style="background: url(bg/brain.jpg) no-repeat 50% 100% black;">
+     <header>
+      <h1 style="color: #ffffff;">
+4,218 brains are better than 1</h1>
+     </header>
+<section>
 
+ <ul> 
+<li>Faster, optimized, readable code</li>
 
+<li><s>Function chaining & implicit iteration behavior</s></li>
+
+<li>Less code. Faster to code.</li>
+
+<li>Faster learning curve. No need to know JS?!?!
+</li></ul>
+</section></div>
 
 <div class="slide intro"  style="background-color: hsl(320, 90%, 39%);">
   <h2 style="font-size: 8vw;">Battery</h2>
@@ -1502,15 +1609,6 @@ Initially download only what a page needs: include only functions used by page</
 </header>
 </div>
 
-<div class="slide TWEET">
-  <blockquote>
-<a href="https://twitter.com/kizmarh" aria-label="Roma Komarov (screen name: kizmarh)"> <img  src="images/tweet_roma.jpg" alt="Roma Komarov"></a>
- <div> <a href="https://twitter.com/kizmarh" aria-label="Roma Komarov (screen name: kizmarh)"><span>Roma Komarov</span> <span>@kizmarh</span>
-    </a>
-
-    <p>Like, lets compare DOMContentLoaded.<br><br>My site at my main browser profile: 1.5s<br><br>My site in an incognito window: 352ms<br><br>Basically, extensions add more than second for each regular navigation, fun.<br><br/><span class="date">3:29 PM - 1 Feb 2019</span></p></div>
-  </blockquote>
-</div>
 
 
 
@@ -1568,6 +1666,37 @@ Initially download only what a page needs: include only functions used by page</
 
 
 
+<!-- indian women -->
+<div class="slide">
+  <header><h1>Direction</h1></header>
+ </div>
+
+
+
+
+<div class="slide object">
+<header><h1>main-axis</h1></header>
+<object data="files/axes.html"></object>
+<a href="files/axes.html" target="play" class="objectlink">↪</a>
+</div>
+
+
+<div class="slide invert">
+<header><h1>Left to Right language</h1></header>
+<img src="images/count_flex.png" alt="showing left to right language with flex">
+</div>
+
+<div class="slide invert">
+<header><h1>Top to Bottom Language</h1></header>
+<img src="images/japanese_flex.png" alt="showing top to bottom language with flex">
+</div>
+
+
+<div class="slide invert object">
+<header><h1>Right to left</h1></header>
+<object data="files/hebrew.html"></object>
+<a href="files/hebrew.html" target="play" class="objectlink">↪</a>
+</div>
 
 <!-- cerebral palsy -->
 <div class="slide bigbg" style="background-image: url(bg/cp.jpg)">
@@ -1611,17 +1740,24 @@ Initially download only what a page needs: include only functions used by page</
 
 
 <div class="slide intro" style="background-color: hsl(220, 68%, 21%);">
-<h1>Hire a front end engineer to architect the front end</h1>
+<h1>Hire a front end engineer to <br/>architect the front end</h1>
 </div>
 
 
 
 
 <div class="slide intro"  style="background-color: hsl(10, 90%, 39%);">
-  <h2 style="font-size: 6.5vw;"></h2>
+  <h2 style="font-size: 6.5vw;">Destroy Semantics with CSS</h2>
   <h1 style="font-size: 8vw">display: grid;</h1>
 </div>
 
+
+
+<div class="slide invert object">
+<header><h1>Table semantics</h1></header>
+<object data="files/grid.html"></object>
+<a href="files/grid.html" target="play" class="objectlink">↪</a>
+</div>
 
 
 <div class="slide object invert">
@@ -1741,22 +1877,47 @@ Initially download only what a page needs: include only functions used by page</
 </div>
 
 
-<!-- doctor -->
-<div class="slide bigbg" style="background-image: url(bg/er.jpg)">
-  <header><h1>User Experience Design</h1></header>
 
+<div class="slide bigbg" style="background-image: url(bg/abuse.jpg)">
+<header><h1>Privacy &amp; Security</h1></header>
+<p class="alt">Abused woman with abuser whispering in her ear</p>
 </div>
+
 
 <!-- doctor -->
 <div class="slide bigbg" style="background-image: url(bg/ruraldoc.jpg)">
   <header><h1>User Experience Design</h1></header>
+
+</div>
+
+<!-- doctor -->
+<div class="slide bigbg" style="background-image: url(bg/er.jpg)">
+  <header><h1>User Experience Design</h1></header>
+</div>
+
+<!-- doctor -->
+<div class="slide bigbg" style="background: url(bg/comic.jpg) no-repeat center bottom black">
+  <header><h1>User Experience Design</h1></header>
+  <a href="https://anekdot.kozaku.in.ua/" class="photocredit">Credit:?</a>
   <section class="content temphidden">
-&ldquo;A user interface is like a joke. If you have to explain it, it’s not that good.&rdquo;
+<div style="background-color:#00000066">&ldquo;A user interface is like a joke. If you have to explain it, it’s not that good.&rdquo;
+
   </section>
 </div>
 
 
+<div class="slide bigbg" style="background-image: url(bg/abuse.jpg)">
+<header><h1>How can your product be exploited?</h1></header>
+<p class="alt">Abused woman with abuser whispering in her ear</p>
+</div>
 
+
+
+<div class="slide object invert">
+  <object type="" data="files/icons_list.html">
+  </object>
+  <a href="files/icons_list.html" class="objectlink">Material Design Icons</a>
+</div>
 
 
 
@@ -1831,11 +1992,9 @@ Initially download only what a page needs: include only functions used by page</
     <ul>
     <li class="temphidden">Architecture</li>
     <li class="temphidden">Consistency</li>
-    <li class="temphidden">Comments</li>
-    <li class="temphidden">Refactoring</li></ul>
+    <li class="temphidden">Comments</li></ul>
   </section>
 </div>
-
 
 
 
@@ -1847,6 +2006,9 @@ Initially download only what a page needs: include only functions used by page</
       <p>Plan ahead</p>
       <p>Always keep it in mind</p>
       <p>Diversity</p>
+      <span class="material-icons">
+airline_seat_flat
+airline_seat_flat_angled</span>
     </section>
 </div>
 
@@ -1857,6 +2019,11 @@ Initially download only what a page needs: include only functions used by page</
       <p>Plan ahead</p>
       <p>Always keep it in mind</p>
       <p>Diversity</p>
+      <span class="material-icons">
+airline_seat_flat
+airline_seat_flat_angled
+airline_seat_individual_suite
+airline_seat_legroom_extra</span>
     </section>
 </div>
 
@@ -1866,6 +2033,13 @@ Initially download only what a page needs: include only functions used by page</
       <p>Plan ahead</p>
       <p>Always keep it in mind</p>
       <p>Diversity</p>
+      <span class="material-icons">
+airline_seat_flat
+airline_seat_flat_angled
+airline_seat_individual_suite
+airline_seat_legroom_extra
+airline_seat_legroom_normal
+airline_seat_legroom_reduced</span>
     </section>
 </div>
 
@@ -1875,6 +2049,15 @@ Initially download only what a page needs: include only functions used by page</
       <p>Plan ahead</p>
       <p>Always keep it in mind</p>
       <p>Diversity</p>
+      <span class="material-icons">
+airline_seat_flat
+airline_seat_flat_angled
+airline_seat_individual_suite
+airline_seat_legroom_extra
+airline_seat_legroom_normal
+airline_seat_legroom_reduced
+airline_seat_recline_extra
+airline_seat_recline_normal</span>
     </section>
 </div>
 
@@ -1884,7 +2067,17 @@ Initially download only what a page needs: include only functions used by page</
     <section class="content">
       <p>Plan ahead</p>
       <p>Always keep it in mind</p>
-      <p>Diversity</p>
+      <p>Diversity</p> <span class="material-icons">
+airline_seat_flat
+airline_seat_flat_angled
+airline_seat_individual_suite
+airline_seat_legroom_extra
+airline_seat_legroom_normal
+airline_seat_legroom_reduced
+airline_seat_recline_extra
+airline_seat_recline_normal
+airplanemode_active
+airplanemode_inactive</span>
     </section>
 </div>
 
@@ -1894,7 +2087,21 @@ Initially download only what a page needs: include only functions used by page</
     <section class="content">
     <p>Good design: Usable and intuitive </p> 
     <p>Always keep it in mind</p>
-    <p>Diversity</p>
+    <p>Diversity</p> <span class="material-icons">
+airline_seat_flat
+airline_seat_flat_angled
+airline_seat_individual_suite
+airline_seat_legroom_extra
+airline_seat_legroom_normal
+airline_seat_legroom_reduced
+airline_seat_recline_extra
+airline_seat_recline_normal
+airplanemode_active
+airplanemode_inactive
+accessible
+accessible_forward
+pregnant_woman
+</span>
     </section>
 </div>
 
@@ -1927,6 +2134,17 @@ Initially download only what a page needs: include only functions used by page</
 </div>
 
 
+<div class="slide large solid">
+    <header><h1>Front End Architecture</h1></header>
+    <section class="TWEET">
+      <blockquote class="twitter-tweet" data-lang="en"><a><img src="images/estelle.jpg"></a>
+        <div>
+          <a href=""><span>Estelle Weyl</span> <span>@estellevw</span></a>
+          <p>
+          Companies, even tiny start ups, need to hire front end engineers from the get go. If you start with a non-FEE doing the front end, you create a tech stack and a tech debt that costs more to fix that it would to create. <a href="https://twitter.com/estellevw/status/1086345445998190592?ref_src=twsrc%5Etfw" class="date">January 18, 2019</a> </p></div></blockquote>
+      </blockquote>
+    </section>
+  </div>
 
 
 
@@ -1934,7 +2152,7 @@ Initially download only what a page needs: include only functions used by page</
 
 <div class="slide tldr">
   <header>
-    <h1>The point:</h1>
+    <h1>The point: (TL;DR;)</h1>
   </header><!-- /header -->
     <section class="content">
    <ol>
@@ -1992,21 +2210,6 @@ Initially download only what a page needs: include only functions used by page</
     </div>
 </div>
 
-
-
-<div class="slide tldr">
-  <header>
-    <h1>TL;DR;</h1>
-  </header><!-- /header -->
-    <section class="content">
-   <ol>
-    <li><em>Understand</em> the <em>tools</em> you're adding to your code</li>
-    <li>Always think about <em>user experience</em>, <em>a11y</em>, <em>performance</em>, <em>security</em>, <em>privacy</em>, and <em>I18n</em> as you develop, and you won't have to retrofit.</li>
-  </ol>
-    </section>
-</div>
-</section>
-</div>
 
 
 

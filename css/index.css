@@ -118,6 +118,7 @@ th {
 
 .slide li {
   margin-bottom: 10px;
+  font-size: 1.3rem;
 }
 
 .slide img {
@@ -145,6 +146,7 @@ th {
 }
 
 .photocredit {
+  color: #ccc;
   position: absolute;
   bottom: 1em;
   right: 1em;
@@ -380,8 +382,7 @@ cite:before {
 }
 
 a {
-  color: inherit;
-  opacity: 0.5;
+  color: #ccc;
 }
 
 .visibility {
@@ -420,6 +421,7 @@ ol {
 .slide[style*="url("]:not(.invert) .entireul,
 .slide[style*="url("]:not(.invert) li {
   background-color: rgba(0, 0, 0, 0.4);
+  padding-right: 0.2em;
 }
 .slide[style*="url("]:not(.invert) .entireul li {
   background-color: transparent;
@@ -439,6 +441,10 @@ ol {
 
 .contrast_text {
   color: magenta;
+}
+
+.solid.solid.solid {
+  background: black;
 }
 
 .arrow {
@@ -500,9 +506,6 @@ ol {
   font-size: 0.8rem;
 }
 
-.TWEET {
-  background-color: #5a115a;
-}
 .TWEET blockquote {
   background-color: white;
   width: 80vw;
@@ -521,12 +524,12 @@ ol {
   height: 2em;
 }
 .TWEET blockquote div > a span:first-of-type {
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: #14171a;
   font-weight: 700;
 }
 .TWEET blockquote div > a span:last-of-type {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   color: black;
 }
 .TWEET blockquote div > p {
@@ -534,7 +537,10 @@ ol {
 }
 .TWEET blockquote div .date {
   color: #657786;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
+  text-shadow: none;
+  display: block;
+  margin-top: 0.5em;
 }
 
 .tweet blockquote {
