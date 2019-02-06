@@ -132,6 +132,10 @@ th {
   margin: 1rem 0 0 0;
 }
 
+body .slide {
+  background-size: 100%;
+}
+
 .slide.bigbg {
   background-size: cover;
 }
